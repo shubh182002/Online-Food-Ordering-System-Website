@@ -202,7 +202,7 @@ const Cart = () => {
                                   </Grid>
                                   <Grid item xs={12}>
                                     
-                                    <Button  variant='contained' fullWidth type='submit' color='primary' >Delever Here</Button>
+                                    <Button  variant='contained' fullWidth type='submit' color='primary'  sx={{ mt: 2 }} >Delever Here</Button>
                                    
 
                                   </Grid>
