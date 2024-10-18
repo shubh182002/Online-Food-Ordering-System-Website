@@ -6,6 +6,7 @@ import { Restaurant } from '@mui/icons-material'
 import RestaurantDetails from '../components/Restaurant/RestaurantDeatils'
 import Cart from '../components/Cart/Cart'
 import Profile from '../components/Profile/Profile'
+import Auth from '../components/Auth/Auth'
 
 const CustomerRouter = () => {
   return (
@@ -18,6 +19,7 @@ const CustomerRouter = () => {
          <Route path='/cart' element={<Cart/>} />
          <Route path='/my-profile/*' element={<Profile/>}/>
         </Routes> 
+        <Auth/>
         
     </div>
   )

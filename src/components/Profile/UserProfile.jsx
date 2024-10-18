@@ -1,11 +1,11 @@
 import React from 'react'
 import AountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Button } from '@mui/material';
-
+import axios from 'axios'
 const UserProfile = () => {
-    const handleLogout = ()=>{
-           
-    }
+    const handleLogout = async ()=>{
+      //const data = await axios.get("http://localhost:8080/api/users/profile"); 
+        }
   return (
     <div className='min-h-[80vh] flex flex-col justify-center items-center text-center'>
         
